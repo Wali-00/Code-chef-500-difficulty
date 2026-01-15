@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+    int T;
+    cin>>T;
+    while (T--)
+    {
+        int X,N;
+        cin>>N>>X;
+        if (N<=X)
+        {
+            cout<<"YES"<<endl;
+        }
+        else{
+            cout<<"NO"<<endl;
+        }
+        
+    }
+    
+}
