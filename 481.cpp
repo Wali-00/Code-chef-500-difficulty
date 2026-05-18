@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin>>T;
+    while(T--){
+        int W,X,Y,Z;
+        cin>>W>>X>>Y>>Z;
+        cout<<W+(X-Y)*Z<<endl;
+    }
+}
